@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8460588492070792565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8460588492070792571}
+  - component: {fileID: 8460588492070792564}
+  m_Layer: 0
+  m_Name: Resources Depot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8460588492070792571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8460588492070792565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -320.94833, y: -137.42824, z: 4.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8460588492070792564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8460588492070792565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c24c8a1b69274ec49b62cd67066596a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  units:
+  - {fileID: 2924730712929791521, guid: b536bf383a0794a4b82ccfaf5b4b5871, type: 3}
+  - {fileID: 1228811473544705285, guid: 518ea4763e4a34dfd93282df108dea9a, type: 3}
+  - {fileID: 3657686224305431750, guid: 0c631da8d991f4c1cb67cc85f016eec0, type: 3}
+  - {fileID: 4677277228143238739, guid: 3ed7cda1d4747484e848f6babd4e9d49, type: 3}
+  - {fileID: 1543858164150950683, guid: 199551ff66071437392d9aaf0e755060, type: 3}
+  movingUnits:
+  - {fileID: 6697169919358286190, guid: e51b55882be0b41bfa7faf5085f7cda5, type: 3}
+  - {fileID: 6697169919358286190, guid: e51b55882be0b41bfa7faf5085f7cda5, type: 3}
+  - {fileID: 2922260129367689364, guid: 89e6c19245ec042818aa37cf54eb3356, type: 3}
+  - {fileID: 3924541321135624805, guid: 0c29286fc82014ef5b996ff474d68494, type: 3}
+  - {fileID: 2836329190959415045, guid: 8b7c89d8da0b74fe99271fbb1556d411, type: 3}
+  outpost:
+  - {fileID: 7247257985188424771, guid: c16cf080a925c4b7f8a50d13fc8549ae, type: 3}
+  - {fileID: 1387426856693713906, guid: 1610ccd9201c64fb5bd854f4e7d58bab, type: 3}
+  - {fileID: 8015650439135984323, guid: 5572ae1da29e74a1e8d6ef5e6973e5fd, type: 3}
+  - {fileID: 1835745858313864562, guid: 5180f74c7261b4d219f31c28e5f58a8d, type: 3}
+  - {fileID: 6500431568760097922, guid: 5e6ac652add6649c998ee508185b5eec, type: 3}
+  warTowers:
+  - {fileID: 7546465971221022874, guid: 71d77d30001d549be948dac6c01387ac, type: 3}
+  - {fileID: 833550189968019736, guid: a5329084439a343efbf4224c920874f6, type: 3}
+  - {fileID: 796684204582413803, guid: 814feb07966a14216946975dd3458b4d, type: 3}
+  - {fileID: 2231394555095181218, guid: 99af7ae8a82804cef8f1b525e193e4f7, type: 3}
+  - {fileID: 7353206389913774285, guid: 43fe0c9d5e07b41f08357073adaa5745, type: 3}
+  lifeWarTower:
+  - {fileID: 895256479442149543, guid: 0d6b0b5bf27634bd8bc55f4607951d16, type: 3}
+  - {fileID: 3483053508485267350, guid: b4ba3a87a014947b5a8fb7c070857650, type: 3}
+  - {fileID: 1942877832767546922, guid: f3f4969bdc2754fb6a31b48cf5e6dd7e, type: 3}
+  - {fileID: 6099964095294294156, guid: eadbd69ae2c004c05b5e7dad93ccfb9b, type: 3}
+  - {fileID: 2840500432552488123, guid: c3f85fc5a1e91427f85292fdacd47f76, type: 3}
+  tiles:
+  - {fileID: 9060517706488100263, guid: 74e715451bd9841cc83401ce65d75058, type: 3}
+  - {fileID: 5468896163552070110, guid: ed17fa8ffc2b94ad6b265bd06337f087, type: 3}
+  - {fileID: 3718220942186453446, guid: c949cf9c0d376445da152ceb94642be9, type: 3}
+  - {fileID: 8806130824040782100, guid: d67ca12c5be484afbbd4bed8a1338f78, type: 3}
+  - {fileID: 6095794252083445243, guid: 71db3bc37c0144f28a94bae045d490db, type: 3}
+  - {fileID: 8860241370479373631, guid: ee17cce23003a4a36beacac107a6173d, type: 3}
+  lifeLine: {fileID: 0}
+  lightTowerLight: {fileID: 552558325505141190, guid: 7e112af4e04a34067b71fccabc42902b,
+    type: 3}
+  lightTowerDark: {fileID: 1851414582071623710, guid: f9c05806f72544711af44c854e0de480,
+    type: 3}
+  toptip: {fileID: 34053543526186884, guid: 91cdcabed14af472e9f696162011900f, type: 3}
+  mapTip: {fileID: 2787063827803533990, guid: 5d2a73a9681a844d6bf58021abb17184, type: 3}
+  ObjectText: {fileID: 9169170351423372544, guid: a2344ea34239e4b64bb91b449df20606,
+    type: 3}
+  mapBackground: {fileID: 8649890067841187786, guid: 84f26308c7d9047c6932b0ad25dd1e8a,
+    type: 3}
